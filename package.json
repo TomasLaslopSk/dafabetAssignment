@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {     
     "report": "npx playwright test --reporter=html && npx playwright show-report",
-    "test": "npx playwright test"
-  },
+    "test": "npx playwright test"},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.29.1"
+    "@playwright/test": "^1.29.1",
+    "odottaa": "^1.1.9"
   }
 }
